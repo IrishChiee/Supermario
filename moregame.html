@@ -1,0 +1,113 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>SuperMario Web-Design</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+        <a href="home.html"></a>
+    </head>
+    <body>
+        <section class ="sub-header">
+            <nav>
+                <a href="index.html"><img src="images/supermario.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="moregame.html">MORE GAME</a></li>
+                        <li><a href="dev.html">DEV</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav> 
+            <h1>More Game We Offer</h1>  
+        </section>
+
+        <section class="course">
+            <h1>Other Game We Have</h1>
+            <p>This is Our Recommended Game We Have, Maybe You Can Try Some Our Game.</p>
+
+            <div class="row">
+                <div class="course-col">
+                    <h3>SuperMario</h3>
+                    <p>SuperMario is Game with the goal of the super mario game is to defeat the last king or final boss, namely King Koopa. SuperMario was created in 1981 guy who made SuperMario game was named Shigeru Miyamoto. Shigeru Miyamoto created the soon-to-be-momumental fictional-character-Mario.</p>
+                </div>
+                <div class="course-col">
+                    <h3>Mario Bro's</h3>
+                    <p>Mario Bro's is Game with two brothers characters. Its Mario and Luigi. Mario is The guy with Red Clothes and Luigi is The guy with Green Clothes. The Dev who made this game have a goal. The goal is someone who play Mario Bro's can play together to get a complete stage and win the fight.</p>
+                </div>
+                <div class="course-col">
+                    <h3>Mario Kart</h3>
+                    <p>Mario Kart is a car racing game where the goal is to get to the finish line first. In Mario Kart you can use other cars by collecting coins and then exchanging them at the shop. You can also upgrade your car engine to increase your car's performance.</p>
+                </div>
+            </div>
+
+
+        </section>
+
+        <!-- facilities -->
+
+        <section class="facilities">
+            <h1>The Extraordinary history of Mario</h1>
+            <p>39 years ago, in 1981, a Japanese video game designer Shigeru Miyamoto created the soon-to-be momumental fictional character — Mario. Acting as the Nintendo's mascot, as well as being the eponymous protagonist of the series, Mario has appeared in over 200 video games and became one of the most recognized and loved game characters ever created.<br>
+
+                At first Mario was known as Jumpman in the Donkey Kong game, released in 1981. He was renamed Mario later in 1982.<br>
+                
+                In 1985, Super Mario Bros. video game, the successor to the 1983 arcade game Mario Bros. and the first in the Super Mario series of platformers, was developed and published by Nintendo in Japan for the Family Computer (Famicom). It was released later that year in North America for the Nintendo Entertainment System (NES).<br>
+                
+                In Super Mario Bros. Mario saves Princess Toadstool (later known as Princess Peach) of the Mushroom Kingdom from King Koopa (later known as Bowser). To save the princess, Mario must conquer the eight worlds of the Mushroom Kingdom by going to the castle in each in order to defeat a minion of King Koopa.</p>
+
+            <div class="row">
+                <div class="facilities-col">
+                    <img src="images/supermario.png">
+                    <h3>Historical Game</h3>
+                    <p>39 years ago, in 1981, a Japanese video game designer Shigeru Miyamoto created the soon-to-be momumental fictional character — Mario. Acting as the Nintendo's mascot, as well as being the eponymous protagonist of the series, Mario has appeared in over 200 video games and became one of the most recognized and loved game characters ever created.</p>
+                </div>
+                <div class="facilities-col">
+                    <img src="images/supermario.png">
+                    <h3>Historical Game</h3>
+                    <p>At first Mario was known as Jumpman in the Donkey Kong game, released in 1981. He was renamed Mario later in 1982. In 1985, Super Mario Bros. video game, the successor to the 1983 arcade game Mario Bros. and the first in the Super Mario series of platformers, was developed and published by Nintendo in Japan for the Family Computer (Famicom). It was released later that year in North America for the Nintendo Entertainment System (NES).</p>
+                </div>
+                <div class="facilities-col">
+                    <img src="images/supermario.png">
+                    <h3>Historical Game</h3>
+                    <p>In Super Mario Bros. Mario saves Princess Toadstool (later known as Princess Peach) of the Mushroom Kingdom from King Koopa (later known as Bowser). To save the princess, Mario must conquer the eight worlds of the Mushroom Kingdom by going to the castle in each in order to defeat a minion of King Koopa.</p>
+                </div>
+            </div>
+            
+        </section>
+
+        <!-- Footer -->
+
+        <section class="footer">
+            <h4>About Us</h4>
+            <p>SuperMario is Game with the goal of the super mario game is to defeat the last king or final boss, namely King Koopa. SuperMario was created in 1981 guy who made SuperMario game was named Shigeru Miyamoto. Shigeru Miyamoto created the soon-to-be-momumental fictional-character-Mario.</p>
+            <p>Web Made By @IrishGame</p>
+        </section>
+
+
+
+
+
+    <!-- JavaScript for toggle menu -->
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+
+    </body>
+    </html>

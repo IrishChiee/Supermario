@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SuperMario Web-Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+    <a href="home.html"></a>
+</head>
+<body>
+    <section class ="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/supermario.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="moregame.html">MORE GAME</a></li>
+                    <li><a href="dev.html">DEV</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav> 
+        <h1>Our Game Developer And Published In Any Software Application From Time To Time</h1>  
+    </section>
+
+    <!-- dev page -->
+
+    <section class="dev-content">
+
+        <div class="row">
+            <div class="dev-left">
+                <img src="images/shigeru.png">
+                <h2>Our Developer Game</h2>
+                <p>This Is Shigeru Miyamoto, He is the guy who created the soon-to-be momumental fictional-character in Mario.</p>
+
+                <div class="comment-box"></div>
+            </div>
+            <div class="dev-right">
+                <h3>Published in Software Application</h3>
+                <div>
+                    <span>Dongkey Game : 1981</span>
+                </div>
+                <div>
+                    <span>Arcade Game : 1983</span>
+                </div>
+                <div>
+                    <span>Nintendo Game : 1985</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   
+
+    
+
+    <!-- Footer -->
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>SuperMario is Game with the goal of the super mario game is to defeat the last king or final boss, namely King Koopa. SuperMario was created in 1981 guy who made SuperMario game was named Shigeru Miyamoto. Shigeru Miyamoto created the soon-to-be-momumental fictional-character-Mario.</p>
+        <p>Web Made By @IrishGame</p>
+    </section>
+
+
+
+
+
+<!-- JavaScript for toggle menu -->
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+
+</body>
+</html>
